@@ -1,5 +1,5 @@
-# This is a guessing game where the computer tries to guess a number.
-# The user can also enter the limit for the guessing.
+# This is a guessing game where the computer tries to guess a number which itself generates.
+# The user enters the limit for the guessing.
 import random
 
 
