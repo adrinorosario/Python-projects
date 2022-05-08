@@ -1,1 +1,1 @@
-A list of Python projects i have built
+Python projects I have built and problems I have solved in Python.
