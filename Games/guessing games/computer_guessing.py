@@ -1,12 +1,12 @@
-# This is a guessing game where the computer tries to guess a number which itself generates.
-# The user enters the limit for the guessing.
+""" This is a guessing game where the computer tries to guess a number which itself generates.
+ The user enters the limit for the guessing."""
 import random
 
 
 def guessing(limit):
-    """ The limit here is upto what number the computer can guess. The random number will also 
-    be within that same limit. The computer will keep on running the while loop until the given condition
-    below is met. Sort of a limited infinite loop """
+    """ The limit here is upto what number the computer can guess. The random number will also be within that same
+     limit. The computer will keep on running the while loop until the given condition below is met.
+     Sort of a limited infinite loop """
     while True:
         random_number = random.randint(1, limit)
         guess = random.choice([x for x in range(limit+1)])

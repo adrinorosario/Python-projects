@@ -1,4 +1,4 @@
-# Binary search implementation in Python
+""" Binary search implementation in Python """
 import random
 
 limit = random.randint(1, 10000)
@@ -8,7 +8,7 @@ choice = random.choice(lst)  # computer chooses the number to search
 lb, ub, mid = 0, len(lst) - 1, 0
 
 while lb <= ub:
-    pos = 0
+    POS = 0
     mid = (lb+ub)/2
     mid2 = int(mid)
     # if the number is greater than middle value, the search will focus on the right half
@@ -18,12 +18,12 @@ while lb <= ub:
     if choice < lst[mid2]:
         ub = mid2 - 1
     if choice == lst[mid2]:
-        pos = mid2  # extracting the index
+        POS = mid2  # extracting the index
         break
 
-print(f"Index of element {choice}: {pos}")
+print(f"Index of element {choice}: {POS}")
 
-# The above search works on an ascendingly sorted list\array. For a descending array, its the opposite:
+# above search works on an ascendingly sorted list\array. For a descending array, its the opposite:
 """
 while lb <= ub:
     pos = 0

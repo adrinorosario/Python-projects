@@ -1,3 +1,5 @@
+""" An email slicer script """
+
 user_email = input("Enter your email address here: ")
 username = user_email[:user_email.index('@')]
 domain = user_email[user_email.index('@')+1:user_email.index('.')]

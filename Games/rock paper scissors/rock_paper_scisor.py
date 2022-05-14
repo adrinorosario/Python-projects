@@ -1,3 +1,4 @@
+""" A ROCK PAPER SCISSORS GAME IN THE TERMINAL """
 import random
 import sys
 
@@ -12,14 +13,14 @@ def game():
         comp = random.choice(options)
         if comp == 'r':
             if userin == 'p':
-                x1 = int(input('You win. Enter 1 for rematch and 0 to exit: '))
-                if x1:
+                x_1 = int(input('You win. Enter 1 for rematch and 0 to exit: '))
+                if x_1:
                     game()
                 else:
                     sys.exit()
             if userin == 's':
-                x2 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
-                if x2:
+                x_2 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
+                if x_2:
                     game()
                 else:
                     sys.exit()
@@ -29,16 +30,16 @@ def game():
                 game()
         if comp == 's':
             if userin == 'r':
-                x3 = int(
+                x_3 = int(
                     input('You win. Enter 1 for rematch and 0 to exit: '))
-                if x3:
+                if x_3:
                     game()
                 else:
                     sys.exit()
 
             if userin == 'p':
-                x4 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
-                if x4:
+                x_4 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
+                if x_4:
                     game()
                 else:
                     sys.exit()
@@ -47,14 +48,14 @@ def game():
                 game()
         if comp == 'p':
             if userin == 's':
-                x5 = int(input('You win. Enter 1 for rematch and 0 to exit: '))
-                if x5:
+                x_5 = int(input('You win. Enter 1 for rematch and 0 to exit: '))
+                if x_5:
                     game()
                 else:
                     sys.exit()
             if userin == 'r':
-                x6 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
-                if x6:
+                x_6 = int(input('You lost. Enter 1 for rematch and 0 to exit: '))
+                if x_6:
                     game()
                 else:
                     sys.exit()

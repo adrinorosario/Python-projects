@@ -1,17 +1,18 @@
+""" A TERMINAL GUI GAME OF TIC TAC TOE """
 import random
 
 
-puzzle_numbering_pattern = """
+PUZZLE_NUMBERING_PATTERN = """
 1 | 2 | 3
 4 | 5 | 6
 7 | 8 | 9 """
 
-mock2 = """
+MOCK_2 = """
 |  |  |  |
 |  |  |  |
 |  |  |  | """
 
-print(mock2)
+print(PUZZLE_NUMBERING_PATTERN)
 print("Take a look at the board. Enter the number on the board. \
 For example, if you are X and enter 5, the place of 5 will be yours, that is X.")
 
@@ -20,6 +21,7 @@ cl = [x for x in range(1, 10)]
 
 
 def game():
+    """ game module """
     counter = 0
     counter2 = 0
     while counter < 10 and counter2 < 10:

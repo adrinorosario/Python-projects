@@ -1,4 +1,4 @@
-# In this game, the computer generates a random number and the user tries to guess the number.
+""" In this game, the computer generates a random number and the user tries to guess the number. """
 import random as r
 
 
