@@ -1,1 +1,1 @@
-A list of python projects
+python projects made by me
